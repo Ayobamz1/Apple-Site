@@ -19,17 +19,35 @@ a {
 }
 
 .nav-box {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
     width: 1000px;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 14px;
+    padding-top: 10px;
+}
+
+.nav-box li {
+    list-style: none;
+    display: inline;
+    margin-left: 60px;
+}
+
+li a {
+    color: #1d1d1f;
+    margin-right: 55px;
+    font-size: 12px;
+}
+/* .nav-box {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 15px;
 }
 
 .nav-box a {
     color: #1d1d1f;
     font-size: 12px;
-}
+} */
 
 .top {
     background-color: white;
